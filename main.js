@@ -46,7 +46,7 @@ const fun = async () => {
         dos.addEventListener('click' , () => {
           
           document.getElementById('span').style = 'top: 70%; left: 43%;';
-          dataMoney.style = `display: flex; left: 9.5%; top: ${80 - contentArray[1]}%;`
+          dataMoney.style = `display: flex; left: 8%; top: ${80 - contentArray[1]}%;`
           contentMoney.innerHTML = `$ ${contentArray[1]}`
           
         })
