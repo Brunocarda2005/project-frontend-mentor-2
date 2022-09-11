@@ -37,44 +37,44 @@ const fun = async () => {
         
         uno.addEventListener('click', () => {
           
-          document.getElementById('span').style = 'top: 70%; left: 43%;';
-          dataMoney.style = `display: flex; left: -5%; top: ${80 - contentArray[0]}%;`
+          document.getElementById('span').style = 'top: 75%; left: 43%;';
+          dataMoney.style = `display: flex; left: -5%; top: ${70 - contentArray[0]}%;`
           contentMoney.innerHTML = `$ ${contentArray[0]}`
           
           
         })
         dos.addEventListener('click' , () => {
           
-          document.getElementById('span').style = 'top: 70%; left: 43%;';
-          dataMoney.style = `display: flex; left: 8%; top: ${80 - contentArray[1]}%;`
+          document.getElementById('span').style = 'top: 75%; left: 43%;';
+          dataMoney.style = `display: flex; left: 8%; top: ${70 - contentArray[1]}%;`
           contentMoney.innerHTML = `$ ${contentArray[1]}`
           
         })
         tres.addEventListener('click', () => {
           
-          document.getElementById('span').style = 'top: 70%; left: 43%;';
-          dataMoney.style = `display: flex; left: 24%; top: ${80 - contentArray[2]}%;`
+          document.getElementById('span').style = 'top: 75%; left: 43%;';
+          dataMoney.style = `display: flex; left: 24%; top: ${70 - contentArray[2]}%;`
           contentMoney.innerHTML = `$ ${contentArray[2]}`
         
         })
         cuatro.addEventListener('click', () => {
           
-          document.getElementById('span').style = 'top: 70%; left: 43%;';
-          dataMoney.style = `display: flex; left: 38%; top: ${80 - contentArray[3]}%;`
+          document.getElementById('span').style = 'top: 75%; left: 43%;';
+          dataMoney.style = `display: flex; left: 38%; top: ${70 - contentArray[3]}%;`
           contentMoney.innerHTML = `$ ${contentArray[3]}`
         
         })
         sinco.addEventListener('click', () => {
           
-          document.getElementById('span').style = 'top: 70%; left: 43%;';
-          dataMoney.style = `display: flex; left: 52%; top: ${80 - contentArray[4]}%;`
+          document.getElementById('span').style = 'top: 75%; left: 43%;';
+          dataMoney.style = `display: flex; left: 52%; top: ${70 - contentArray[4]}%;`
           contentMoney.innerHTML = `$ ${contentArray[4]}`
         
         })
         seis.addEventListener('click', () => {
           
-          document.getElementById('span').style = 'top: 70%; left: 43%;';
-          dataMoney.style = `display: flex; left: 66%; top: ${80 - contentArray[5]}%;`
+          document.getElementById('span').style = 'top: 75%; left: 43%;';
+          dataMoney.style = `display: flex; left: 66%; top: ${70 - contentArray[5]}%;`
           contentMoney.innerHTML = `$ ${contentArray[5]}`
         
         })
