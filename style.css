@@ -154,9 +154,8 @@ body {
 .main-content-data {
   
   width: 100%;
-  height: 70%;
+  height: 80%;
   border-bottom: 3px solid var(--Cream);
-  Padding-bottom: 50%;
   margin-bottom: 20%;
   
 }
@@ -183,6 +182,7 @@ body {
   align-items: end;
   justify-content: center;
   transition: background .4s ease;
+  margin-bottom: 10%;
   
 }
 
