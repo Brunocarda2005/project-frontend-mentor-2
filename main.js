@@ -4,7 +4,7 @@ let contentArray = [];
 
 const fun = async () => {
   
-  await fetch('/data.json')
+  await fetch('data.json')
     .then((element) => element.json())
     .then((data) => {
       
