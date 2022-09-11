@@ -154,9 +154,10 @@ body {
 .main-content-data {
   
   width: 100%;
-  height: 60%;
+  height: 70%;
   border-bottom: 3px solid var(--Cream);
-  margin-bottom: 10%;
+  margin-bottom: 20%;
+  Padding-bottom: 10%;
   
 }
 
@@ -164,7 +165,7 @@ body {
   
   margin-top: 10%;
   width: 100%;
-  height: 70%;
+  height: 80%;
   display: flex;
   justify-content: space-around;
   align-items: end;
