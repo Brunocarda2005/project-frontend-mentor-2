@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+
+
+
+/* ================================== General ================================== */
+
+
+
+:root {
+  
+
+
+--Soft-red: #EC775F;
+--Cyan: #76B5BC;
+
+
+--Dark-brown: #382314;
+--Medium-brown: #93867B;
+--Cream: #F8E9DD;
+--Very-pale-orange: #FFFAF5;
+--one: ;  
+--dos: ;  
+--tres: ;  
+--cuarto: ;  
+--quinto: ;  
+--sexto: ;  
+--septimo: ;  
+  
+  
+}
+
+
+* {
+  
+  font-family: 'DM Sans' sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+
+body {
+  
+  height: 95vh;
+  background: var(--Cream);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+
+
+/* ============================ main ================================ */
+
+
+
+.main {
+  
+  width: 300px;
+  height: 550px;
+  
+}
+
+
+
+.main-header {
+  
+  width: 100%;
+  height: 15%;
+  background: var(--Soft-red);
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.main-header p ,
+.main-header h3 {
+  
+  color: var(--Very-pale-orange);
+  
+}
+
+.main-header h3 {
+  
+  font-size: 25px;
+  
+}
+
+.main-header-balance {
+  
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
+}
+
+
+@media (min-width : 700px) {
+  
+  
+  .main {
+    
+    width: 400px;
+    height: 700px;
+    
+  }
+  
+  .main-header {
+    
+    height: 13%;
+    
+  }
+  
+  
+}
+
+
+
+/* =========================== balance =============================== */
+
+
+
+.main-content {
+  
+  margin-top: 10%;
+  width: 100%;
+  height: 80%;
+  background: var(--Very-pale-orange);
+  padding: 15px;
+  border-radius: 10px;
+  
+}
+
+.main-content h2 {
+  
+  color: var(--Dark-brown);
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 10% ;
+  
+}
+
+
+.main-content-data {
+  
+  width: 100%;
+  height: 80%;
+  border-bottom: 3px solid var(--Cream);
+  margin-bottom: 5%;
+  
+}
+
+.main-content-data-details {
+  
+  margin-top: 10%;
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+  position: relative;
+  
+}
+
+.main-content-data-details-div {
+  
+  width: 30px;
+  height: 80%;
+  background: var(--Soft-red);
+  border-radius: 3px; 
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  transition: background .4s ease;
+  
+}
+
+.main-content-data-details-div:hover {
+  
+  background: var(--Cyan);
+  
+}
+
+.main-content-data-details-div-p {
+  
+  transform: translateY(160%);
+  color: var(--Medium-brown);
+  font-weight: 500;
+  
+}
+
+
+#money {
+  
+  transition: all .4s ease;
+  
+}
+
+
+
+
+
+
+
+.main-content-data-details-money {
+  
+  padding: 7px 10px;
+  border-radius: 3px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0%;
+  background: var(--Dark-brown);
+  color: var(--Very-pale-orange);
+  font-weight: 700;
+  z-index: 1;
+  
+}
+
+.main-content-data-details-money span {
+  
+  width: 10px;
+  height: 10px;
+  background: var(--Dark-brown);
+  transform: rotate(45deg);
+  position: absolute;
+  bottom: -2px;
+  z-index: -1;
+  
+}
+
+
+
+
+
+/* ================ month =============== */
+
+
+.main-content-month {
+  
+  width: 100%;
+  height: 15%;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  
+}
+
+
+.main-content-month p {
+  
+  color: var(--Medium-brown);
+  
+}
+
+
+.main-content-month-money {
+  
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  
+}
+
+
+.main-content-month-money h3 {
+  
+  font-size: 2em;
+  margin-top: 10px;
+  
+}
+
+
+.main-content-month-porcentaje {
+  
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  text-align: right;
+  
+}
+
+
+.main-content-month-porcentaje h4 {
+  
+  font-size: 1.2em;
+  margin-bottom: 3px;
+  
+}
+
+
+
+
+
+
+
+
+.attribution { 
+  
+  font-size: 11px; 
+  text-align: center; 
+  position: absolute;
+  bottom: 0;
+  
+}
+
+.attribution a { 
+  
+  color: hsl(228, 45%, 44%); 
+  
+}
