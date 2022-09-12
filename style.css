@@ -44,6 +44,7 @@
 body {
   
   height: 100vh;
+  overflowY: hidden;
   background: var(--Cream);
   display: flex;
   flex-direction: column;
