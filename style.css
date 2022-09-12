@@ -43,8 +43,7 @@
 
 body {
   
-  height: 100vh;
-  overflowY: hidden;
+  overflow-y: hidden;
   background: var(--Cream);
   display: flex;
   flex-direction: column;
