@@ -38,7 +38,7 @@ const fun = async () => {
         uno.addEventListener('click', () => {
           
           document.getElementById('span').style = 'top: 75%; left: 43%;';
-          dataMoney.style = `display: flex; left: -5%; top: ${60 - contentArray[0]}%;`
+          dataMoney.style = `display: flex; left: -7%; top: ${60 - contentArray[0]}%;`
           contentMoney.innerHTML = `$ ${contentArray[0]}`
           
           
@@ -53,21 +53,21 @@ const fun = async () => {
         tres.addEventListener('click', () => {
           
           document.getElementById('span').style = 'top: 75%; left: 43%;';
-          dataMoney.style = `display: flex; left: 20%; top: ${60 - contentArray[2]}%;`
+          dataMoney.style = `display: flex; left: 18%; top: ${60 - contentArray[2]}%;`
           contentMoney.innerHTML = `$ ${contentArray[2]}`
         
         })
         cuatro.addEventListener('click', () => {
           
           document.getElementById('span').style = 'top: 75%; left: 43%;';
-          dataMoney.style = `display: flex; left: 30%; top: ${60 - contentArray[3]}%;`
+          dataMoney.style = `display: flex; left: 27%; top: ${60 - contentArray[3]}%;`
           contentMoney.innerHTML = `$ ${contentArray[3]}`
         
         })
         sinco.addEventListener('click', () => {
           
           document.getElementById('span').style = 'top: 75%; left: 43%;';
-          dataMoney.style = `display: flex; left: 57%; top: ${60 - contentArray[4]}%;`
+          dataMoney.style = `display: flex; left: 36%; top: ${60 - contentArray[4]}%;`
           contentMoney.innerHTML = `$ ${contentArray[4]}`
         
         })
