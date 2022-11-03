@@ -104,27 +104,6 @@ body {
 }
 
 
-@media (min-width : 700px) {
-  
-  
-  .main {
-    
-    width: 400px;
-    height: 650px;
-    
-  }
-  
-  .main-header {
-    
-    height: 13%;
-    
-  }
-  
-  
-}
-
-
-
 /* =========================== balance =============================== */
 
 
@@ -170,6 +149,17 @@ body {
   position: relative;
   
 }
+
+@media(min-widht: 700px){
+
+  .main-content-data-details {
+  
+    height: 50%;
+    
+  }
+  
+}
+
 
 .main-content-data-details-div {
   
