@@ -43,7 +43,8 @@
 
 body {
   
-  height: 90vh;
+  height: 100vh;
+  min-height: 620px;
   background: var(--Cream);
   display: flex;
   flex-direction: column;
